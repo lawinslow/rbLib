@@ -8,13 +8,13 @@ Description: Compendium of functions that RB has found useful in a variety of
 Depends:
     R (>= 3.1.2)
 Imports:
-    ssh.utils,
     numbers,
     graphics,
     grDevices
 License: MIT + file LICENSE
 LazyData: true
 Suggests:
+    ssh.utils,
     knitr,
     covr,
 VignetteBuilder: knitr
